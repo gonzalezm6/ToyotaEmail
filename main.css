@@ -1,0 +1,270 @@
+* {
+    margin: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a{
+   text-decoration: none; 
+}
+
+a:visited{
+    text-decoration: none; color: black;
+}
+
+#bgTemplate {
+    width: 600px;
+    height: 2275px;
+    background-color: whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .1px
+}
+
+#logo {
+    width: 136px;
+    height: 37.5px;
+    background-image: url("logo.svg");
+    background-size: cover;
+}
+
+#headline {
+    width: 475px;
+    height: 190px;
+    background-color: whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-size: 36px;
+    margin-bottom: -20px;
+}
+
+#topLine {
+    margin-left: 0px;
+    text-align: left;
+    margin-bottom: -10px;
+}
+
+#centerLine {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 56px;
+    color: #D71921;
+}
+
+#bottomLine {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+    margin-top: -10px;
+}
+
+#heroPic {
+    margin: 0px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 310px;
+    background-image: url("heroPic.png");
+    background-size: auto;
+}
+
+#heroButton {
+    position: relative;
+    top: 270px;
+    right: 15px;
+    width: 125px;
+    height: 30px;
+    background-color: #D71921;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+#infoImages {
+    margin: 0;
+}
+
+#infoImage {
+    width: 280px;
+    height: 175px;
+    margin-bottom: 0;
+}
+
+#title {
+    margin-top: 0;
+    padding-left: 1px;
+    position: relative;
+    top: -125px;
+    left: 10px;
+    width: 280px;
+    height: 175px;
+    float: right;
+    font-size: 36px;
+}
+
+#infoText {
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 560px;
+    height: 40px;
+    font-size: 16px;
+    position: absolute;
+}
+
+#learnMore {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 140px;
+    height: 36px;
+    position: relative;
+    top: 30px;
+    text-align: left;
+    color: #D71921;
+}
+
+#socialMedia {
+    display: block;
+    margin: 0;
+    margin-top: 126px;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.facebook {
+    width: 40px;
+    height: 40px;
+    background-image: url("facebookLogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 100px;
+    bottom: 5px;
+}
+
+#facebookText {
+    color: transparent;
+    font-size: 40px;
+    margin-left: -1px;
+}
+
+.instagram {
+    width: 50px;
+    height: 50px;
+    background-image: url("instagramLogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 260px;
+    bottom: 68px;
+}
+
+#instagramText {
+    color: transparent;
+    font-size: 40px;
+    margin-left: -1px;
+}
+
+.twitter {
+    width: 40px;
+    height: 40px;
+    background-image: url("twitterLogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 420px;
+    bottom: 132px;
+}
+
+#twitterText {
+    color: transparent;
+    font-size: 40px;
+    margin-left: -1px;
+}
+
+#dealer {
+    color: #D71921;    
+    margin: 0;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 10px;
+    border-right: 1px solid black;
+
+}
+
+#specials {
+    color: #D71921;        
+    float: right;
+    position: relative;
+    top: -50px;
+    margin: 0;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 10px;
+}
+
+.design {
+    background-image: url("strikingDesign.jpg");
+    background-size: cover;
+}
+
+.interior {
+    background-image: url("sculptedInterior.jpg");
+    background-size: cover;
+    position: relative;
+    top: 40px;
+}
+
+.safety {
+    background-image: url("safetySense.jpg");
+    background-size: cover;
+    position: relative;
+    top: 40px;
+}
+
+.performance {
+    background-image: url("performance.jpg");
+    background-size: cover;
+    position: relative;
+    top: 40px;
+}
+
+.title2,
+.title4 {
+    padding-top: 40px;
+}
+
+.title3 {
+    padding-top: 15px;
+    position: relative;
+    top: -100px;
+}
+
+.description2,
+.description3,
+.description4 {
+    padding-top: 45px;
+}
+
+.lm2,
+.lm3,
+.lm4 {
+    padding-top: 40px;
+}
+
